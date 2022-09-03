@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         </div>
       </header>
 
-      <main className="flex w-full flex-1 flex-col items-start justify-start pl-10 text-left">
+      <main className="mb-auto w-full justify-start pl-10 text-left">
         <ul className="tracking-widest">
           <li><a href="/resume.pdf">Resume</a></li>
           <li><a href="https://blog.cadizm.com">Blog</a></li>
