@@ -1,1 +1,1 @@
-[GitHub Pages](https://pages.github.com/) for [cadizm.github.io](https://cadizm.github.io/)
+[Next.js](https://nextjs.org/) repo for [cadizm.com](https://cadizmm.com)
