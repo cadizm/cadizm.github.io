@@ -3,20 +3,20 @@ import Head from 'next/head'
 
 const Home: NextPage = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex flex-col min-h-screen py-2">
       <Head>
         <title>cadizm</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="flex h-24 w-full items-center justify-end pr-10">
-        <div className="flex w-full items-center justify-start pl-10">
-          <a href="/" className="text-3xl font-press-start tracking-widest">
+      <header className="flex h-24 items-center justify-end pr-10">
+        <div className="flex w-full pl-10">
+          <a href="/" className="text-3xl tracking-widest">
             Michael Cadiz
           </a>
         </div>
-        <div className='p-2'>
-          <a href="https://github.com/cadizm" className=''>
+        <div className="p-2">
+          <a href="https://github.com/cadizm">
             <svg xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
@@ -27,8 +27,8 @@ const Home: NextPage = () => {
             </svg>
           </a>
         </div>
-        <div className='p-2'>
-          <a href="https://www.linkedin.com/in/cadizm" className=''>
+        <div className="p-2">
+          <a href="https://www.linkedin.com/in/cadizm">
             <svg xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
@@ -41,7 +41,7 @@ const Home: NextPage = () => {
         </div>
       </header>
 
-      <main className="mb-auto w-full justify-start pl-10 text-left">
+      <main className="mb-auto pl-10 text-left">
         <ul className="tracking-widest">
           <li><a href="/resume.pdf">Resume</a></li>
           <li><a href="https://blog.cadizm.com">Blog</a></li>
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
 
       <footer className="flex h-10 w-full items-center justify-end border-t pr-8 pt-2">
         <div>
-          <a href="https://status.cadizm.com" className=''>
+          <a href="https://status.cadizm.com">
             <svg xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
