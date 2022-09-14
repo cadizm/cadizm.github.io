@@ -45,7 +45,7 @@ const Home: NextPage = () => {
         <ul className="tracking-widest">
           <li><a href="/resume.pdf">Resume</a></li>
           <li><a href="https://blog.cadizm.com">Blog</a></li>
-          <li><a href="http://dev.cadizm.com">Dev</a></li>
+          <li><a href="https://dev.cadizm.com">Dev</a></li>
         </ul>
       </main>
 
