@@ -1,12 +1,24 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
+const trackingId: string = 'G-83SXJHFXF2';
+
 const Home: NextPage = () => {
   return (
     <div className="flex flex-col min-h-screen py-2">
       <Head>
         <title>cadizm</title>
         <link rel="icon" href="/favicon.ico" />
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${trackingId}`}></script>
+        <script dangerouslySetInnerHTML={{
+          __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${trackingId}', {page_path: window.location.pathname,});
+          `,
+        }}
+        />
       </Head>
 
       <header className="flex h-24 items-center justify-end pr-10">
