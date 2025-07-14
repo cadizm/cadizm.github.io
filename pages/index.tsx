@@ -56,7 +56,6 @@ const Home: NextPage = () => {
       <main className="mb-auto pl-10 text-left">
         <ul className="tracking-widest">
           <li><a href="https://blog.cadizm.com">Blog</a></li>
-          <li><a href="https://dev.cadizm.com">Dev</a></li>
         </ul>
       </main>
 
